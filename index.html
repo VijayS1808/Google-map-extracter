@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Maps Data Extractor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Google Maps Extractor</h2>
+
+<input type="text" id="query" placeholder="Search (hotel, hospital)">
+<input type="text" id="location" placeholder="Location (Pune, India)">
+<button onclick="searchPlaces()">Search</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody id="results"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
